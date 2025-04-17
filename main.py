@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 import google.generativeai as genai
@@ -7,6 +8,7 @@ import yt_dlp
 import requests
 import json
 import aiohttp
+
 
 GOOGLE_API_KEY = "AIzaSyCEsn0-BIxrtaCGehmWw83GnHsVtxUEsqk"
 STEAM_API_KEY = 'F44C2514B380C70AC0DFED5C4F5F3D94'
