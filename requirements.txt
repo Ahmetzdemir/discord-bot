@@ -4,3 +4,11 @@ yt_dlp
 requests
 aiohttp
 flask
+frozenlist==1.3.3
+idna==3.4
+multidict==6.0.3
+yarl==1.8.2
+aiosignal==1.3.1
+async-timeout==4.0.2
+attrs==22.1.0
+charset-normalizer==2.1.1
