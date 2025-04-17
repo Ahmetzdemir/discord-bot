@@ -1,0 +1,7 @@
+discord.py
+google-generativeai
+yt_dlp
+requests
+aiohttp
+python-dotenv
+flask
