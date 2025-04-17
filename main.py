@@ -8,6 +8,10 @@ import requests
 import json
 import aiohttp
 
+GOOGLE_API_KEY = "AIzaSyCEsn0-BIxrtaCGehmWw83GnHsVtxUEsqk"
+STEAM_API_KEY = 'F44C2514B380C70AC0DFED5C4F5F3D94'
+STEAM_ID = '76561199105806673'
+NSFW_API_URL ="https://api.waifu.pics"
 # Google Gemini API yapılandırması
 genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -300,4 +304,4 @@ async def yardımcı(ctx):
     
     await ctx.send(embed=embed)
 
-bot.run(BOT_TOKEN)
+bot.run(os.environ["DISCORD_TOKEN"])
