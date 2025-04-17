@@ -7,12 +7,7 @@ import yt_dlp
 import requests
 import json
 import aiohttp
-# BOT TOKEN ve GOOGLE API KEY'İNİ BURAYA YAZ
-BOT_TOKEN = "MTM2MjIyNDY1MDIzODU2MjM4NA.GLV2Li.HlFm99VIj-RRVCxoZY2CvsJ9NnRblIcYrZyqsc"
-GOOGLE_API_KEY = "AIzaSyCEsn0-BIxrtaCGehmWw83GnHsVtxUEsqk"
-STEAM_API_KEY = 'F44C2514B380C70AC0DFED5C4F5F3D94'
-STEAM_ID = '76561199105806673'
-NSFW_API_URL ="https://api.waifu.pics"
+
 # Google Gemini API yapılandırması
 genai.configure(api_key=GOOGLE_API_KEY)
 
